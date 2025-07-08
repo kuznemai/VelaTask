@@ -245,14 +245,18 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
-    padding: 10px 19px;
+    padding: 10px 27px;
     border-radius: 4px;
     background-color: #F4F4F4;
     white-space: nowrap;
     text-overflow: ellipsis;
     position: relative;
-    transition: fill-opacity 0.3s ease;
+    transition: color 0.3s ease, fill-opacity 0.3s ease;
 }
+.header__nav-item:hover {
+    color: #4888FF;
+}
+
 .header__nav-item:hover .header__nav-icon path {
     fill-opacity: 1;
 }
